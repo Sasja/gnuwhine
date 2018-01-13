@@ -7,7 +7,10 @@ Personalise `purpletulip.py` to your taste and portfolio. Purpletulip can track 
 
 See upstream for more info on ingredients and the robot itself
 
-Set up a cronjob that runs tulipupdate.sh
+Set up a cronjob that runs `tulipupdate.sh` like e.g.
+```
+0 20 * * * /home/sasja/git/gnuwhine/tulipupdate.sh /home/sasja/git/gnuwhine
+```
 
 Happy Gnüwhining!
 Never take investment advice from a cocktail robot!!!
