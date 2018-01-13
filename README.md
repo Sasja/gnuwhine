@@ -1,14 +1,14 @@
-# Gnüwhine recipe
+# Gnüwhine recipe generator
 
-## Make your own Gnüwhine
-Choose from the following ingredients: krambambuli, rum, cognac, vodka, clubmate, orangejuice, cinnamon, lemon, sugar.
-The key is the ingredient, the value is the amount in percentage. Example:
+## Generate your own Gnüwhine recipe based on the latest updates from the [tulip markets](https://coinmarketcap.com)
+Run `purpletulip.py` to generate a recipe on stdout or `purpletulip.py > recipe.yaml`
 
-rum: 70%
+Personalise `purpletulip.py` to your taste and portfolio
+Purpletulip can track price, market cap, or -if you dare- `percent_change_1h` to create the most volatile cocktails that will keep you coming back for more!
 
-Make a fork from https://github.com/hsbxl/gnuwhine, edit the recipe.yaml file,
-then your fork will be listed on our interface.
-For making multiple variants, use branches.
-No pull requests needed. Just edit/push to your own fork.
+see upstream for more info on ingredients and the robot itself
+
+set up a cronjob that runs tulipupdate.sh
 
 Happy Gnüwhining!
+Never take investment advice from a cocktail robot!!!
