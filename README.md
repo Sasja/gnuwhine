@@ -9,7 +9,7 @@ See upstream for more info on ingredients and the robot itself
 
 Set up a cronjob that runs `tulipupdate.sh` like e.g.
 ```
-0 20 * * * /home/sasja/git/gnuwhine/tulipupdate.sh /home/sasja/git/gnuwhine
+0 20 * * * /home/sasja/git/gnuwhine/tulipupdate.sh /home/sasja/git/gnuwhine >> /home/sasja/gnuwhine.log 2>&1
 ```
 
 Happy Gnüwhining!

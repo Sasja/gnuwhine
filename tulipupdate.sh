@@ -3,7 +3,8 @@
 tulippath=$1
 
 cd "$tulippath"
-./purpletulip.py > ./recipe.yaml
+./purpletulip.py | tee ./recipe.yaml
 git add recipe.yaml
 git commit -m "auto-update recipe"
 git push
+echo "--------------------------------------------------------------------------------"
