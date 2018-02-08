@@ -14,3 +14,5 @@ Set up a cronjob that runs `tulipupdate.sh` like e.g.
 
 Happy Gnüwhining!
 Never take investment advice from a cocktail robot!!!
+
+maar allez mongool
